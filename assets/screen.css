@@ -1,0 +1,183 @@
+body {
+	margin:0px;
+	background-color: #999966;
+	}
+
+a {
+	color: #990000;
+	text-decoration:none;
+	font-weight:bold;
+	}
+	
+a:hover {
+	color: #660000;
+	text-decoration:underline;
+	}
+	
+#container {
+  width: 960px;
+}
+
+#header {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+#logo {
+	font:32px times new roman;
+	color: #ffffff;
+	letter-spacing:.4em;
+	font-weight:bold;
+	text-align: right;
+	text-transform: uppercase;
+	}
+
+#navigation {
+  width: 100%;
+  background: #a4c2c2;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
+#navigation ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  height: 3.2em;
+}
+
+#navigation ul li {
+  float: right;
+  display: inline;
+  margin: 1em 15px;
+  text-transform: uppercase;
+}
+
+#navigation a {
+	font:10px arial;
+	color: #336666;
+	text-decoration:none;
+	letter-spacing:.1em;
+	}
+	
+#navigation a:hover {
+	color: #993300;
+	text-decoration:underline;
+	}
+
+#sidebar {
+  width: 230px;
+  height: 100%;
+  float: left;
+  margin: 0;
+  padding: 0;
+  background: #a4c2c2;
+	display: block;
+}
+
+#sidebar #caption {
+  width: 215px;
+  height: 100%;
+	font:12px georgia;
+	color: #336666;
+	line-height:18px;
+	padding: 8px 0;
+	margin: 2px -8px;
+	text-align: right;
+}
+
+#body {
+  width: 730px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  float: right;
+  background: #fff;
+}
+
+#body h2 {
+	font:20px georgia;
+	color: #CC3300;
+	letter-spacing:.1em;
+	line-height:26px;
+	margin: 1.5em;
+	}
+
+#body p {
+	font:11px arial;
+	line-height:24px;
+	color:#333333;
+	margin: 0.5em 2.5em;
+	}
+
+#body dl#contactinfo dt, dl#contactinfo dd {
+  margin: 15px 40px;
+}
+
+#body dl#contactinfo dt {
+  font-weight: bold;
+}
+
+#body dl#contactinfo dd {
+  font-style: italic;
+  padding: 0 0 0 5px;
+}
+
+#footer {
+  width: 100%;
+}
+		
+#footer p {
+  color: #fff;
+  font: 0.65em georgia, serif;
+  text-align: right;
+}
+
+.fixedwidth {
+  width: 960px;
+}
+
+.spacer {
+  height: 1px;
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+  clear:both;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  background: #a4c2c2;
+}
+
+.body {
+  background: #fff;
+}
+
+.body .column {
+  width: 320px;
+  margin: 5px 10px;
+  float: left;
+  text-align: justify;
+}
+
+.actions {
+  clear: both;
+}
+
+.actions h3 {
+  margin: 15px 40px;
+  text-align: center;
+}
+
+.obfuscate {
+  unicode-bidi:bidi-override; direction: rtl;
+  text-align: left;
+}
